@@ -1,0 +1,22 @@
+{
+  "name": "ERC721-Marketplace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/carlosmori/ERC721-Marketplace.git",
+  "author": "Carlos Mori <cmori.94@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "web": "yarn workspace web dev",
+    "web:build": "yarn workspace web build",
+    "web:start": "yarn workspace web start",
+    "web:lint": "yarn workspace web lint",
+    "web:test": "yarn workspace web test",
+    "web:test:ci": "yarn workspace web test:ci",
+    "web:cypress": "yarn workspace web cypress"
+},
+  "packageManager": "yarn@3.2.1"
+}
